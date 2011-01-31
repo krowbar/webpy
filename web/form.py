@@ -240,7 +240,7 @@ class Dropdown(Input):
             else:
                 value, desc = arg, arg 
 
-            if (self.value == value or (self.value and value in self.value):
+            if (self.value == value or (self.value and value in self.value)):
                 select_p = ' selected="selected"'
             else:
                 select_p = ''
